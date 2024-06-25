@@ -2,6 +2,8 @@
 
 html, body {
     background-color: #ececec;
+    padding: 0;
+    margin: 0;
 }
 
 * {
@@ -12,6 +14,9 @@ h1 {
     font-size: 40px;
     color: #0021f3;
     font-style: italic;
+    margin: 0;
+
+    margin-right: 40px;
 }
 
 img {
@@ -20,7 +25,6 @@ img {
 }
 
 .product {
-    border: 1px black solid;
     display: flex;
     flex-direction: row;
 
@@ -29,6 +33,15 @@ img {
     background-color: white;
     border-radius: 20px;
     padding: 10px;
+
+    width: 60%;
+}
+
+
+.productList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -42,4 +55,22 @@ p {
 
 button {
     margin-left: auto;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+}
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0021f3;
+    font-size: 20px;
 }
