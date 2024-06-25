@@ -1,49 +1,5 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-
-    * {
-        font-family: "Didact Gothic";
-        background-color: #ececec;
-    }
-
-    h1 {
-        font-size: 40px;
-        color: #0021f3;
-        font-style: italic;
-    }
-
-    img {
-        width: 200px;
-        height: 200px;
-    }
-
-    .product {
-        border: 1px black solid;
-        display: flex;
-        height: 250px;
-        margin-top: 20px;
-        background-color: white;
-        border-radius: 20px;
-        padding: 10px;
-    }
-
-    .product * {
-        background-color: white;
-    }
-
-
-    h2 {
-        width: 300px;
-    }
-
-    p {
-        width: 700px;
-    }
-
-    button {
-        margin-left: auto;
-    }
-</style>
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
 
 <h1><span style="color: #05016a">Нет</span>Магазин</h1>
 
@@ -51,7 +7,7 @@
 <a href="/products">Товары</a>
 <a href="/aboutus">О нас</a>
 
-<div class="product">
+ <div class="product">
     <img src="https://i.ibb.co/2Kyfx8L/kandinsky-download-1718811608686.png"/>
     <div>
         <h2>Смарт-часы</h2>
@@ -61,10 +17,13 @@
 </div>
 
 <div class="product">
+
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ILCnXo4vNx1w8T9kFFFgsP-XW_GNHaT85w&s"/>
+
     <div>
         <h2>Компьютер</h2>
         <p>Lorem Ipsum</p>
     </div>
+
     <button>Купить</button>
 </div>

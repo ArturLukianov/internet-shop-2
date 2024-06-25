@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+html, body {
+    background-color: #ececec;
+}
+
+* {
+    font-family: "Didact Gothic";
+}
+
+h1 {
+    font-size: 40px;
+    color: #0021f3;
+    font-style: italic;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.product {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+
+    height: 250px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+h2 {
+    width: 300px;
+}
+
+p {
+    width: 700px;
+}
+
+button {
+    margin-left: auto;
+}
