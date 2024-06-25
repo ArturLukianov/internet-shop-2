@@ -74,3 +74,16 @@ a {
     color: #0021f3;
     font-size: 20px;
 }
+
+button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.price {
+    margin-left: auto;
+    text-align: center;
+}
