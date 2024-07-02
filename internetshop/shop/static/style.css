@@ -19,16 +19,21 @@ h1 {
     margin-right: 40px;
 }
 
-img {
+.productPreview {
     width: 200px;
     height: 200px;
+}
+
+.productImage {
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .product {
     display: flex;
     flex-direction: row;
 
-    height: 250px;
+    min-height: 250px;
     margin-top: 20px;
     background-color: white;
     border-radius: 20px;
@@ -44,14 +49,6 @@ img {
     align-items: center;
 }
 
-
-h2 {
-    width: 300px;
-}
-
-p {
-    width: 700px;
-}
 
 button {
     margin-left: auto;
