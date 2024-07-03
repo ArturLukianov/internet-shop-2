@@ -133,6 +133,9 @@ button {
     margin-right: auto;
 }
 
+
+
+
 .productDescription * {
     margin: 20px;
 }
@@ -165,4 +168,35 @@ button {
     background-color: #efefef;
     padding: 10px;
     border-radius: 10px;
+}
+
+.createReview {
+    display: flex;
+    flex-direction: column;
+}
+
+.createReview * {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 20px;
+    border: none;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+.createReview input {
+    background-color: #e0e0e0;
+}
+
+
+.createReview textarea {
+    background-color: #e0e0e0;
+}
+
+.createReview button {
+    width: fit-content;
+    margin-top: 10px !important;
+    margin-left: auto !important;
+    padding: 10px !important;
 }
