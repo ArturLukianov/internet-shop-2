@@ -13,6 +13,12 @@
     <img class="productImage" src="/static/copertina.webp">
     <h2>К оплате: 200 рублей</h2>
     <h3>Реквезиты для перевода:</h3>
-    <h2>+78005553535</h2>
+    <h2>+78005553535 <button onclick="copyPhone()">Скопировать</button></h2>
     <h2>Иванов И. И.</h2>
 </div>
+
+<script>
+function copyPhone() {
+    navigator.clipboard.writeText('+78005553535');
+}
+</script>
