@@ -220,3 +220,11 @@ button {
 
     padding: 10px;
 }
+
+.vspace {
+    height: 10px;
+}
+
+.paymentButton {
+    width: 100%;
+}
