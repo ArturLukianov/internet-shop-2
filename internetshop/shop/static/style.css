@@ -187,6 +187,12 @@ button {
 
 .createReview input {
     background-color: #e0e0e0;
+    padding: 5px !important;
+}
+
+.createReview select {
+    background-color: #e0e0e0;
+    padding: 5px !important;
 }
 
 
